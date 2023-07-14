@@ -86,11 +86,5 @@ pipeline {
                 }
             }
         }
-
-        stage('Sonarqube') {
-            steps {
-                sonarqube()
-            }
-        }
     }
 }
